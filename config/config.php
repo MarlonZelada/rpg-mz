@@ -1,4 +1,4 @@
 <?php
 
 
-define('URL', 'http://localhost/rpg/');
+define('URL', 'https://rpg-mz.herokuapp.com/');
