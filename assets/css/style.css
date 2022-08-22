@@ -1,6 +1,6 @@
 .contenido{
     margin-top: 40px;
-    color:greenyellow;
+    color:rgb(33, 35, 29);
     border: 3px solid black;
 }
 
@@ -13,3 +13,64 @@
 .fa-search{
 color: black;
 }
+
+/*Estilos Login*/
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+
+.container-login {
+    background: rgb(207, 206, 223);
+    background: linear-gradient(90deg, rgba(207, 206, 223, 1) 0%, rgba(38, 38, 186, 0.3284664207479867) 61%, rgba(106, 190, 190, 1) 88%);
+
+}
+
+
+
+.login {
+
+    /*background: rgb(143, 170, 168);
+    background: linear-gradient(90deg, rgba(143, 170, 168, 1) 13%, rgba(115, 162, 148, 1) 68%);*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.login-imagen {
+    border: 1px solid black;
+}
+
+.imagen-login img {
+    width: 30%;
+    height: 40%;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(52, 100, 134));
+}
+
+#btn-login {
+    font-size: 30px;
+    padding: 0px 30px 0px 30px;
+
+}
+
+
+.msj {
+
+    font-size: 50%;
+    padding: 0px;
+}
+
+
+.guardar_sesion {
+    font-size: 40%;
+    color: rgb(2, 40, 96);
+
+}
+/*Fin Estilos Login*/

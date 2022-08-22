@@ -2,13 +2,15 @@
 
 
 require_once 'config/config.php';
-//require_once 'db/Database.php';
+require_once 'database/Database.php';
 //require_once 'helpers/sesion.php';
+require_once 'helper/sesion.php';
+require_once 'helper/helps.php';
 
 
-//$conectar = new Database();
-//$conectar->conexion();
-
+$conectar = new Database();
+$conectar = $conectar->conexion();
+//echo $conectar;
 
 $url = (!empty($_GET['url'])) ? $_GET['url'] : 'home';
 //echo '<p>url barra ' . $url . '</p>';
