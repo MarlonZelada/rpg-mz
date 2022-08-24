@@ -99,6 +99,7 @@
                     <li> <a class="waves-effect waves-dark" href="map-google.html" aria-expanded="false"><i class="fa fa-globe"></i><span class="hide-menu"></span>Map</a></li>
                     <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false"><i class="fa fa-bookmark-o"></i><span class="hide-menu"></span>Blank</a></li>
                     <li> <a class="waves-effect waves-dark" href="pages-error-404.html" aria-expanded="false"><i class="fa fa-question-circle"></i><span class="hide-menu"></span>404</a></li>
+                    <li> <a class="waves-effect waves-dark" href="<?php echo URL; ?>login/cerrar_sesion" aria-expanded="false"><i class="fa fa-question-circle"></i><span class="hide-menu"></span>Cerrar Sesion</a></li>
                     <div class="text-center m-t-30">
                         <a href="https://wrappixel.com/templates/elegant-admin/" class="btn waves-effect waves-light btn-success hidden-md-down"> Upgrade to Pro</a>
                     </div>

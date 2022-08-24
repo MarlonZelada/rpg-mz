@@ -45,10 +45,12 @@ if (file_exists('controllers/' . $controlador . '.php')) {
     if (method_exists($controller, $metodo)) {
         $method = $controller->$metodo($parametros);
     } else {
-        echo '<p>El metodo no existe</p>';
-        echo '<p>Metodo ' . $metodo . '</p>';
+        require_once 'views/error-404/error-404.php';
+        //echo '<p>El metodo no existe</p>';
+        //echo '<p>Metodo ' . $metodo . '</p>';
     }
 } else {
-    echo '<p>El controlador no existe</p>';
-    echo '<p>Controlador ' . $controlador . '</p>';
+    require_once 'views/error-404/error-404.php';
+    //echo '<p>El controlador no existe</p>';
+    //echo '<p>Controlador ' . $controlador . '</p>';
 }
